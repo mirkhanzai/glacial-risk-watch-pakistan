@@ -1,0 +1,331 @@
+{
+  "timestamp": "2026-06-28T12:51:59.328333+00:00",
+  "system": "Northern Pakistan Glacial Flood and Landslide Watch",
+  "combined_risk": {
+    "risk_level": "NORMAL",
+    "score": 0.0,
+    "reasons": []
+  },
+  "valleys": [
+    {
+      "name": "Hunza_Gojal",
+      "lat": 36.45,
+      "lon": 74.85,
+      "agents": [
+        {
+          "agent": "HeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": 8.99,
+          "mean_temperature_c": -664.27,
+          "summary": "Maximum temperature recorded: 8.99 C"
+        },
+        {
+          "agent": "RainfallAgent",
+          "risk": "NORMAL",
+          "rainfall_24h_mm": -23976.0,
+          "summary": "Last 24-hour precipitation: -23976.0 mm"
+        },
+        {
+          "agent": "GlacierMeltProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Glacier melt proxy based on high temperature: 8.99 C"
+        },
+        {
+          "agent": "FloodProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Flood proxy based on rainfall plus glacier melt potential"
+        },
+        {
+          "agent": "LandslideProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Landslide proxy based on recent rainfall intensity"
+        }
+      ],
+      "combined_risk": {
+        "risk_level": "NORMAL",
+        "score": 0.0,
+        "reasons": []
+      }
+    },
+    {
+      "name": "Gulmit_Gulkin",
+      "lat": 36.38,
+      "lon": 74.86,
+      "agents": [
+        {
+          "agent": "HeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": 8.99,
+          "mean_temperature_c": -664.27,
+          "summary": "Maximum temperature recorded: 8.99 C"
+        },
+        {
+          "agent": "RainfallAgent",
+          "risk": "NORMAL",
+          "rainfall_24h_mm": -23976.0,
+          "summary": "Last 24-hour precipitation: -23976.0 mm"
+        },
+        {
+          "agent": "GlacierMeltProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Glacier melt proxy based on high temperature: 8.99 C"
+        },
+        {
+          "agent": "FloodProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Flood proxy based on rainfall plus glacier melt potential"
+        },
+        {
+          "agent": "LandslideProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Landslide proxy based on recent rainfall intensity"
+        }
+      ],
+      "combined_risk": {
+        "risk_level": "NORMAL",
+        "score": 0.0,
+        "reasons": []
+      }
+    },
+    {
+      "name": "Ishkoman",
+      "lat": 36.75,
+      "lon": 73.85,
+      "agents": [
+        {
+          "agent": "HeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": 11.85,
+          "mean_temperature_c": -663.75,
+          "summary": "Maximum temperature recorded: 11.85 C"
+        },
+        {
+          "agent": "RainfallAgent",
+          "risk": "NORMAL",
+          "rainfall_24h_mm": -23976.0,
+          "summary": "Last 24-hour precipitation: -23976.0 mm"
+        },
+        {
+          "agent": "GlacierMeltProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Glacier melt proxy based on high temperature: 11.85 C"
+        },
+        {
+          "agent": "FloodProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Flood proxy based on rainfall plus glacier melt potential"
+        },
+        {
+          "agent": "LandslideProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Landslide proxy based on recent rainfall intensity"
+        }
+      ],
+      "combined_risk": {
+        "risk_level": "NORMAL",
+        "score": 0.0,
+        "reasons": []
+      }
+    },
+    {
+      "name": "Yasin",
+      "lat": 36.45,
+      "lon": 73.32,
+      "agents": [
+        {
+          "agent": "HeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": 15.13,
+          "mean_temperature_c": -662.83,
+          "summary": "Maximum temperature recorded: 15.13 C"
+        },
+        {
+          "agent": "RainfallAgent",
+          "risk": "NORMAL",
+          "rainfall_24h_mm": -23976.0,
+          "summary": "Last 24-hour precipitation: -23976.0 mm"
+        },
+        {
+          "agent": "GlacierMeltProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Glacier melt proxy based on high temperature: 15.13 C"
+        },
+        {
+          "agent": "FloodProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Flood proxy based on rainfall plus glacier melt potential"
+        },
+        {
+          "agent": "LandslideProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Landslide proxy based on recent rainfall intensity"
+        }
+      ],
+      "combined_risk": {
+        "risk_level": "NORMAL",
+        "score": 0.0,
+        "reasons": []
+      }
+    },
+    {
+      "name": "Shigar",
+      "lat": 35.43,
+      "lon": 75.73,
+      "agents": [
+        {
+          "agent": "HeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": 14.59,
+          "mean_temperature_c": -662.91,
+          "summary": "Maximum temperature recorded: 14.59 C"
+        },
+        {
+          "agent": "RainfallAgent",
+          "risk": "NORMAL",
+          "rainfall_24h_mm": -23976.0,
+          "summary": "Last 24-hour precipitation: -23976.0 mm"
+        },
+        {
+          "agent": "GlacierMeltProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Glacier melt proxy based on high temperature: 14.59 C"
+        },
+        {
+          "agent": "FloodProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Flood proxy based on rainfall plus glacier melt potential"
+        },
+        {
+          "agent": "LandslideProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Landslide proxy based on recent rainfall intensity"
+        }
+      ],
+      "combined_risk": {
+        "risk_level": "NORMAL",
+        "score": 0.0,
+        "reasons": []
+      }
+    },
+    {
+      "name": "Reshun_Chitral",
+      "lat": 36.15,
+      "lon": 72.15,
+      "agents": [
+        {
+          "agent": "HeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": 17.83,
+          "mean_temperature_c": -662.37,
+          "summary": "Maximum temperature recorded: 17.83 C"
+        },
+        {
+          "agent": "RainfallAgent",
+          "risk": "NORMAL",
+          "rainfall_24h_mm": -23976.0,
+          "summary": "Last 24-hour precipitation: -23976.0 mm"
+        },
+        {
+          "agent": "GlacierMeltProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Glacier melt proxy based on high temperature: 17.83 C"
+        },
+        {
+          "agent": "FloodProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Flood proxy based on rainfall plus glacier melt potential"
+        },
+        {
+          "agent": "LandslideProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Landslide proxy based on recent rainfall intensity"
+        }
+      ],
+      "combined_risk": {
+        "risk_level": "NORMAL",
+        "score": 0.0,
+        "reasons": []
+      }
+    },
+    {
+      "name": "Brep_Yarkhun",
+      "lat": 36.37,
+      "lon": 72.35,
+      "agents": [
+        {
+          "agent": "HeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": 14.9,
+          "mean_temperature_c": -663.11,
+          "summary": "Maximum temperature recorded: 14.9 C"
+        },
+        {
+          "agent": "RainfallAgent",
+          "risk": "NORMAL",
+          "rainfall_24h_mm": -23976.0,
+          "summary": "Last 24-hour precipitation: -23976.0 mm"
+        },
+        {
+          "agent": "GlacierMeltProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Glacier melt proxy based on high temperature: 14.9 C"
+        },
+        {
+          "agent": "FloodProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Flood proxy based on rainfall plus glacier melt potential"
+        },
+        {
+          "agent": "LandslideProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Landslide proxy based on recent rainfall intensity"
+        }
+      ],
+      "combined_risk": {
+        "risk_level": "NORMAL",
+        "score": 0.0,
+        "reasons": []
+      }
+    },
+    {
+      "name": "Kumrat",
+      "lat": 35.55,
+      "lon": 72.23,
+      "agents": [
+        {
+          "agent": "HeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": 18.94,
+          "mean_temperature_c": -661.64,
+          "summary": "Maximum temperature recorded: 18.94 C"
+        },
+        {
+          "agent": "RainfallAgent",
+          "risk": "NORMAL",
+          "rainfall_24h_mm": -23976.0,
+          "summary": "Last 24-hour precipitation: -23976.0 mm"
+        },
+        {
+          "agent": "GlacierMeltProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Glacier melt proxy based on high temperature: 18.94 C"
+        },
+        {
+          "agent": "FloodProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Flood proxy based on rainfall plus glacier melt potential"
+        },
+        {
+          "agent": "LandslideProxyAgent",
+          "risk": "NORMAL",
+          "summary": "Landslide proxy based on recent rainfall intensity"
+        }
+      ],
+      "combined_risk": {
+        "risk_level": "NORMAL",
+        "score": 0.0,
+        "reasons": []
+      }
+    }
+  ]
+}
