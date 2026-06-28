@@ -1,0 +1,42 @@
+name: Hourly Glacial Risk Monitor
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-agents:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install libraries
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run multi-agent monitoring
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python main.py
+
+      - name: Commit updated monitoring data
+        run: |
+          git config --global user.name "risk-monitor-bot"
+          git config --global user.email "risk-monitor-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "Update monitoring data" || echo "No changes to commit"
+          git push
