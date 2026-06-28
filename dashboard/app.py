@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 st.title("Northern Pakistan Glacial Flood, Heat and Landslide Watch")
-
+st.caption("Data sources: NASA POWER Hourly API + Open-Meteo Forecast API")
 st.warning(
     "Automated decision-support dashboard only. Verify all alerts with NDMA, PMD, "
     "GBDMA, PDMA KP, district administration, Rescue 1122, and field observers."
