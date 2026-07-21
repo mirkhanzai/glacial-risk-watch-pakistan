@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T17:39:22.416119+00:00",
+  "timestamp": "2026-07-21T19:44:49.701026+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -7,13 +7,13 @@
   ],
   "combined_risk": {
     "risk_level": "NORMAL",
-    "score": 1.0,
+    "score": 2.0,
     "reasons": [
       {
         "agent": "ValleyRisk_Hunza_Gojal",
-        "risk": "WATCH",
-        "weighted_score": 1.0,
-        "summary": "Hunza_Gojal score 7.6"
+        "risk": "WARNING",
+        "weighted_score": 2.0,
+        "summary": "Hunza_Gojal score 11.8"
       },
       {
         "agent": "ValleyRisk_Brep_Yarkhun",
@@ -56,9 +56,9 @@
         },
         {
           "agent": "ForecastRainfallAgent",
-          "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 11.4,
-          "summary": "Forecast precipitation in next 48h: 11.4 mm"
+          "risk": "WATCH",
+          "forecast_rainfall_48h_mm": 23.3,
+          "summary": "Forecast precipitation in next 48h: 23.3 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
@@ -71,20 +71,27 @@
         {
           "agent": "FloodRiskAgent",
           "risk": "WATCH",
-          "combined_trigger_points": 3,
+          "combined_trigger_points": 4,
           "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
         },
         {
           "agent": "LandslideRiskAgent",
-          "risk": "NORMAL",
-          "combined_trigger_points": 0,
+          "risk": "WATCH",
+          "combined_trigger_points": 1,
           "summary": "Landslide trigger proxy from recent and forecast rainfall"
         }
       ],
       "combined_risk": {
-        "risk_level": "WATCH",
-        "score": 7.6,
+        "risk_level": "WARNING",
+        "score": 11.8,
         "reasons": [
+          {
+            "agent": "ForecastRainfallAgent",
+            "risk": "WATCH",
+            "weighted_score": 2.0,
+            "summary": "Forecast precipitation in next 48h: 23.3 mm",
+            "valley": "Hunza_Gojal"
+          },
           {
             "agent": "SnowMeltForecastAgent",
             "risk": "CRITICAL",
@@ -97,6 +104,13 @@
             "risk": "WATCH",
             "weighted_score": 2.5,
             "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy",
+            "valley": "Hunza_Gojal"
+          },
+          {
+            "agent": "LandslideRiskAgent",
+            "risk": "WATCH",
+            "weighted_score": 2.2,
+            "summary": "Landslide trigger proxy from recent and forecast rainfall",
             "valley": "Hunza_Gojal"
           }
         ]
@@ -129,8 +143,8 @@
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 13.3,
-          "summary": "Forecast precipitation in next 48h: 13.3 mm"
+          "forecast_rainfall_48h_mm": 13.2,
+          "summary": "Forecast precipitation in next 48h: 13.2 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
@@ -201,9 +215,9 @@
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
           "forecast_max_temperature_48h_c": 1.1,
-          "forecast_snow_depth_max_m": 1.92,
-          "forecast_snowfall_total_cm": 5.32,
-          "summary": "Melt proxy: max temp 1.1 C, snow depth 1.92 m, snowfall 5.32 cm"
+          "forecast_snow_depth_max_m": 1.94,
+          "forecast_snowfall_total_cm": 5.25,
+          "summary": "Melt proxy: max temp 1.1 C, snow depth 1.94 m, snowfall 5.25 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -251,8 +265,8 @@
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 11.3,
-          "summary": "Forecast precipitation in next 48h: 11.3 mm"
+          "forecast_rainfall_48h_mm": 7.8,
+          "summary": "Forecast precipitation in next 48h: 7.8 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
@@ -316,8 +330,8 @@
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 17.8,
-          "summary": "Forecast precipitation in next 48h: 17.8 mm"
+          "forecast_rainfall_48h_mm": 13.5,
+          "summary": "Forecast precipitation in next 48h: 13.5 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
@@ -381,8 +395,8 @@
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 0.1,
-          "summary": "Forecast precipitation in next 48h: 0.1 mm"
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
