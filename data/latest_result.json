@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-31T18:25:41.297278+00:00",
+  "timestamp": "2026-07-31T20:25:30.054718+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -39,8 +39,8 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 17.8,
-          "summary": "Forecast maximum temperature in next 48h: 17.8 C"
+          "forecast_max_temperature_48h_c": 17.9,
+          "summary": "Forecast maximum temperature in next 48h: 17.9 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -51,10 +51,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 17.8,
+          "forecast_max_temperature_48h_c": 17.9,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 17.8 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 17.9 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -161,8 +161,8 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 2.3,
-          "summary": "Forecast maximum temperature in next 48h: 2.3 C"
+          "forecast_max_temperature_48h_c": 2.8,
+          "summary": "Forecast maximum temperature in next 48h: 2.8 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -173,10 +173,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 2.3,
+          "forecast_max_temperature_48h_c": 2.8,
           "forecast_snow_depth_max_m": 1.91,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 2.3 C, snow depth 1.91 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 2.8 C, snow depth 1.91 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -218,8 +218,8 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "WATCH",
-          "forecast_max_temperature_48h_c": 25.5,
-          "summary": "Forecast maximum temperature in next 48h: 25.5 C"
+          "forecast_max_temperature_48h_c": 25.0,
+          "summary": "Forecast maximum temperature in next 48h: 25.0 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -230,10 +230,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 25.5,
+          "forecast_max_temperature_48h_c": 25.0,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 25.5 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 25.0 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -256,7 +256,7 @@
             "agent": "ForecastHeatAgent",
             "risk": "WATCH",
             "weighted_score": 1.4,
-            "summary": "Forecast maximum temperature in next 48h: 25.5 C",
+            "summary": "Forecast maximum temperature in next 48h: 25.0 C",
             "valley": "Yasin"
           }
         ]
@@ -283,8 +283,8 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "WATCH",
-          "forecast_max_temperature_48h_c": 30.4,
-          "summary": "Forecast maximum temperature in next 48h: 30.4 C"
+          "forecast_max_temperature_48h_c": 30.6,
+          "summary": "Forecast maximum temperature in next 48h: 30.6 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -295,10 +295,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 30.4,
+          "forecast_max_temperature_48h_c": 30.6,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 30.4 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 30.6 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -321,7 +321,7 @@
             "agent": "ForecastHeatAgent",
             "risk": "WATCH",
             "weighted_score": 1.4,
-            "summary": "Forecast maximum temperature in next 48h: 30.4 C",
+            "summary": "Forecast maximum temperature in next 48h: 30.6 C",
             "valley": "Shigar"
           }
         ]
@@ -347,9 +347,9 @@
         },
         {
           "agent": "ForecastHeatAgent",
-          "risk": "WATCH",
-          "forecast_max_temperature_48h_c": 25.2,
-          "summary": "Forecast maximum temperature in next 48h: 25.2 C"
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": 24.7,
+          "summary": "Forecast maximum temperature in next 48h: 24.7 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -360,10 +360,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 25.2,
+          "forecast_max_temperature_48h_c": 24.7,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 25.2 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 24.7 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -380,16 +380,8 @@
       ],
       "combined_risk": {
         "risk_level": "NORMAL",
-        "score": 1.4,
-        "reasons": [
-          {
-            "agent": "ForecastHeatAgent",
-            "risk": "WATCH",
-            "weighted_score": 1.4,
-            "summary": "Forecast maximum temperature in next 48h: 25.2 C",
-            "valley": "Reshun_Chitral"
-          }
-        ]
+        "score": 0.0,
+        "reasons": []
       }
     },
     {
