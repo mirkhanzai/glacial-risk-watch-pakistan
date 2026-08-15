@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T18:40:20.514923+00:00",
+  "timestamp": "2026-08-15T19:28:01.637861+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -281,8 +281,8 @@
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 4.4,
-          "summary": "Forecast precipitation in next 48h: 4.4 mm"
+          "forecast_rainfall_48h_mm": 4.1,
+          "summary": "Forecast precipitation in next 48h: 4.1 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
