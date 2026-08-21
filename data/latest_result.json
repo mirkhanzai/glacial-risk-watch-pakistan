@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T01:49:05.621612+00:00",
+  "timestamp": "2026-08-21T03:11:33.994228+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -33,7 +33,7 @@
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
           "max_temperature_c": 14.63,
-          "mean_temperature_c": -326.97,
+          "mean_temperature_c": -494.98,
           "summary": "Recent maximum observed temperature: 14.63 C"
         },
         {
@@ -212,7 +212,7 @@
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
           "max_temperature_c": 19.78,
-          "mean_temperature_c": -323.71,
+          "mean_temperature_c": -492.54,
           "summary": "Recent maximum observed temperature: 19.78 C"
         },
         {
