@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23T01:51:46.298325+00:00",
+  "timestamp": "2026-08-23T03:11:12.525566+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -22,10 +22,10 @@
         "summary": "Gulmit_Gulkin score 4.2"
       },
       {
-        "agent": "ValleyRisk_Brep_Yarkhun",
+        "agent": "ValleyRisk_Kumrat",
         "risk": "UNKNOWN",
         "weighted_score": 0.0,
-        "summary": "Brep_Yarkhun score 0"
+        "summary": "Kumrat score 0"
       }
     ]
   },
@@ -420,25 +420,13 @@
       "name": "Brep_Yarkhun",
       "lat": 36.37,
       "lon": 72.35,
-      "error": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=40)",
-      "agents": [],
-      "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
-        "reasons": []
-      }
-    },
-    {
-      "name": "Kumrat",
-      "lat": 35.55,
-      "lon": 72.23,
       "agents": [
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 20.76,
-          "mean_temperature_c": -492.16,
-          "summary": "Recent maximum observed temperature: 20.76 C"
+          "max_temperature_c": 16.94,
+          "mean_temperature_c": -495.07,
+          "summary": "Recent maximum observed temperature: 16.94 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -448,23 +436,23 @@
         },
         {
           "agent": "ForecastHeatAgent",
-          "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 19.2,
-          "summary": "Forecast maximum temperature in next 48h: 19.2 C"
+          "risk": "WATCH",
+          "forecast_max_temperature_48h_c": 25.7,
+          "summary": "Forecast maximum temperature in next 48h: 25.7 C"
         },
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 5.3,
-          "summary": "Forecast precipitation in next 48h: 5.3 mm"
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 19.2,
+          "forecast_max_temperature_48h_c": 25.7,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 19.2 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 25.7 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -481,7 +469,27 @@
       ],
       "combined_risk": {
         "risk_level": "NORMAL",
-        "score": 0.0,
+        "score": 1.4,
+        "reasons": [
+          {
+            "agent": "ForecastHeatAgent",
+            "risk": "WATCH",
+            "weighted_score": 1.4,
+            "summary": "Forecast maximum temperature in next 48h: 25.7 C",
+            "valley": "Brep_Yarkhun"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kumrat",
+      "lat": 35.55,
+      "lon": 72.23,
+      "error": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=40)",
+      "agents": [],
+      "combined_risk": {
+        "risk_level": "UNKNOWN",
+        "score": 0,
         "reasons": []
       }
     }
