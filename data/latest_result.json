@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T23:18:39.080396+00:00",
+  "timestamp": "2026-08-27T08:56:13.153585+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -32,9 +32,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 6.93,
-          "mean_temperature_c": -497.96,
-          "summary": "Recent maximum observed temperature: 6.93 C"
+          "max_temperature_c": 9.96,
+          "mean_temperature_c": -497.42,
+          "summary": "Recent maximum observed temperature: 9.96 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -45,8 +45,8 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 18.4,
-          "summary": "Forecast maximum temperature in next 48h: 18.4 C"
+          "forecast_max_temperature_48h_c": 18.2,
+          "summary": "Forecast maximum temperature in next 48h: 18.2 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -57,10 +57,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 18.4,
+          "forecast_max_temperature_48h_c": 18.2,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 18.4 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 18.2 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -89,9 +89,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 6.93,
-          "mean_temperature_c": -497.96,
-          "summary": "Recent maximum observed temperature: 6.93 C"
+          "max_temperature_c": 9.96,
+          "mean_temperature_c": -497.42,
+          "summary": "Recent maximum observed temperature: 9.96 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -102,22 +102,22 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "WATCH",
-          "forecast_max_temperature_48h_c": 25.1,
-          "summary": "Forecast maximum temperature in next 48h: 25.1 C"
+          "forecast_max_temperature_48h_c": 25.8,
+          "summary": "Forecast maximum temperature in next 48h: 25.8 C"
         },
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 0.1,
-          "summary": "Forecast precipitation in next 48h: 0.1 mm"
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 25.1,
+          "forecast_max_temperature_48h_c": 25.8,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 25.1 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 25.8 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -140,7 +140,7 @@
             "agent": "ForecastHeatAgent",
             "risk": "WATCH",
             "weighted_score": 1.4,
-            "summary": "Forecast maximum temperature in next 48h: 25.1 C",
+            "summary": "Forecast maximum temperature in next 48h: 25.8 C",
             "valley": "Gulmit_Gulkin"
           }
         ]
@@ -154,9 +154,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 9.71,
-          "mean_temperature_c": -497.85,
-          "summary": "Recent maximum observed temperature: 9.71 C"
+          "max_temperature_c": 11.34,
+          "mean_temperature_c": -496.8,
+          "summary": "Recent maximum observed temperature: 11.34 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -167,8 +167,8 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 1.4,
-          "summary": "Forecast maximum temperature in next 48h: 1.4 C"
+          "forecast_max_temperature_48h_c": 2.5,
+          "summary": "Forecast maximum temperature in next 48h: 2.5 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -179,10 +179,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 1.4,
-          "forecast_snow_depth_max_m": 1.52,
+          "forecast_max_temperature_48h_c": 2.5,
+          "forecast_snow_depth_max_m": 1.51,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 1.4 C, snow depth 1.52 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 2.5 C, snow depth 1.51 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -211,9 +211,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 13.72,
-          "mean_temperature_c": -496.35,
-          "summary": "Recent maximum observed temperature: 13.72 C"
+          "max_temperature_c": 15.41,
+          "mean_temperature_c": -495.2,
+          "summary": "Recent maximum observed temperature: 15.41 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -224,8 +224,8 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 22.9,
-          "summary": "Forecast maximum temperature in next 48h: 22.9 C"
+          "forecast_max_temperature_48h_c": 24.2,
+          "summary": "Forecast maximum temperature in next 48h: 24.2 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -236,10 +236,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 22.9,
+          "forecast_max_temperature_48h_c": 24.2,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 22.9 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 24.2 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -268,9 +268,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 14.64,
-          "mean_temperature_c": -495.0,
-          "summary": "Recent maximum observed temperature: 14.64 C"
+          "max_temperature_c": 16.0,
+          "mean_temperature_c": -494.79,
+          "summary": "Recent maximum observed temperature: 16.0 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -281,8 +281,8 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "WATCH",
-          "forecast_max_temperature_48h_c": 29.5,
-          "summary": "Forecast maximum temperature in next 48h: 29.5 C"
+          "forecast_max_temperature_48h_c": 30.1,
+          "summary": "Forecast maximum temperature in next 48h: 30.1 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -293,10 +293,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 29.5,
+          "forecast_max_temperature_48h_c": 30.1,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 29.5 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 30.1 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -319,7 +319,7 @@
             "agent": "ForecastHeatAgent",
             "risk": "WATCH",
             "weighted_score": 1.4,
-            "summary": "Forecast maximum temperature in next 48h: 29.5 C",
+            "summary": "Forecast maximum temperature in next 48h: 30.1 C",
             "valley": "Shigar"
           }
         ]
@@ -333,9 +333,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 17.64,
-          "mean_temperature_c": -495.07,
-          "summary": "Recent maximum observed temperature: 17.64 C"
+          "max_temperature_c": 18.62,
+          "mean_temperature_c": -494.17,
+          "summary": "Recent maximum observed temperature: 18.62 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -345,9 +345,9 @@
         },
         {
           "agent": "ForecastHeatAgent",
-          "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 23.1,
-          "summary": "Forecast maximum temperature in next 48h: 23.1 C"
+          "risk": "WATCH",
+          "forecast_max_temperature_48h_c": 25.6,
+          "summary": "Forecast maximum temperature in next 48h: 25.6 C"
         },
         {
           "agent": "ForecastRainfallAgent",
@@ -358,10 +358,10 @@
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 23.1,
+          "forecast_max_temperature_48h_c": 25.6,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 23.1 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 25.6 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -378,8 +378,16 @@
       ],
       "combined_risk": {
         "risk_level": "NORMAL",
-        "score": 0.0,
-        "reasons": []
+        "score": 1.4,
+        "reasons": [
+          {
+            "agent": "ForecastHeatAgent",
+            "risk": "WATCH",
+            "weighted_score": 1.4,
+            "summary": "Forecast maximum temperature in next 48h: 25.6 C",
+            "valley": "Reshun_Chitral"
+          }
+        ]
       }
     },
     {
