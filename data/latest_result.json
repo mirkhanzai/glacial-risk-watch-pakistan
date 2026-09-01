@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-01T18:21:15.887971+00:00",
+  "timestamp": "2026-09-01T21:42:22.631474+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -45,8 +45,8 @@
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 5.7,
-          "summary": "Forecast precipitation in next 48h: 5.7 mm"
+          "forecast_rainfall_48h_mm": 6.0,
+          "summary": "Forecast precipitation in next 48h: 6.0 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
@@ -96,22 +96,22 @@
         {
           "agent": "ForecastHeatAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 23.2,
-          "summary": "Forecast maximum temperature in next 48h: 23.2 C"
+          "forecast_max_temperature_48h_c": 23.1,
+          "summary": "Forecast maximum temperature in next 48h: 23.1 C"
         },
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 5.1,
-          "summary": "Forecast precipitation in next 48h: 5.1 mm"
+          "forecast_rainfall_48h_mm": 8.2,
+          "summary": "Forecast precipitation in next 48h: 8.2 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
           "risk": "NORMAL",
-          "forecast_max_temperature_48h_c": 23.2,
+          "forecast_max_temperature_48h_c": 23.1,
           "forecast_snow_depth_max_m": 0.0,
           "forecast_snowfall_total_cm": 0.0,
-          "summary": "Melt proxy: max temp 23.2 C, snow depth 0.0 m, snowfall 0.0 cm"
+          "summary": "Melt proxy: max temp 23.1 C, snow depth 0.0 m, snowfall 0.0 cm"
         },
         {
           "agent": "FloodRiskAgent",
@@ -216,8 +216,8 @@
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 1.2,
-          "summary": "Forecast precipitation in next 48h: 1.2 mm"
+          "forecast_rainfall_48h_mm": 2.4,
+          "summary": "Forecast precipitation in next 48h: 2.4 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
@@ -273,8 +273,8 @@
         {
           "agent": "ForecastRainfallAgent",
           "risk": "NORMAL",
-          "forecast_rainfall_48h_mm": 11.2,
-          "summary": "Forecast precipitation in next 48h: 11.2 mm"
+          "forecast_rainfall_48h_mm": 3.0,
+          "summary": "Forecast precipitation in next 48h: 3.0 mm"
         },
         {
           "agent": "SnowMeltForecastAgent",
