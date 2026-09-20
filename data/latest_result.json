@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T00:57:51.194269+00:00",
+  "timestamp": "2026-09-20T06:03:10.536729+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -38,9 +38,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 0.14,
-          "mean_temperature_c": -666.53,
-          "summary": "Recent maximum observed temperature: 0.14 C"
+          "max_temperature_c": 0.77,
+          "mean_temperature_c": -500.48,
+          "summary": "Recent maximum observed temperature: 0.77 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -110,9 +110,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 0.14,
-          "mean_temperature_c": -666.53,
-          "summary": "Recent maximum observed temperature: 0.14 C"
+          "max_temperature_c": 0.77,
+          "mean_temperature_c": -500.48,
+          "summary": "Recent maximum observed temperature: 0.77 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -167,9 +167,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": -0.21,
-          "mean_temperature_c": -666.88,
-          "summary": "Recent maximum observed temperature: -0.21 C"
+          "max_temperature_c": 2.57,
+          "mean_temperature_c": -500.5,
+          "summary": "Recent maximum observed temperature: 2.57 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -224,9 +224,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 0.58,
-          "mean_temperature_c": -666.57,
-          "summary": "Recent maximum observed temperature: 0.58 C"
+          "max_temperature_c": 5.97,
+          "mean_temperature_c": -499.57,
+          "summary": "Recent maximum observed temperature: 5.97 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -281,9 +281,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 4.57,
-          "mean_temperature_c": -665.38,
-          "summary": "Recent maximum observed temperature: 4.57 C"
+          "max_temperature_c": 5.49,
+          "mean_temperature_c": -498.53,
+          "summary": "Recent maximum observed temperature: 5.49 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -338,9 +338,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 5.26,
-          "mean_temperature_c": -665.31,
-          "summary": "Recent maximum observed temperature: 5.26 C"
+          "max_temperature_c": 11.91,
+          "mean_temperature_c": -497.62,
+          "summary": "Recent maximum observed temperature: 11.91 C"
         },
         {
           "agent": "ObservedRainfallAgent",
