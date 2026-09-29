@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-29T00:57:06.527810+00:00",
+  "timestamp": "2026-09-29T06:46:25.928079+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -14,12 +14,6 @@
         "risk": "WATCH",
         "weighted_score": 1.0,
         "summary": "Yasin score 5.9"
-      },
-      {
-        "agent": "ValleyRisk_Brep_Yarkhun",
-        "risk": "UNKNOWN",
-        "weighted_score": 0.0,
-        "summary": "Brep_Yarkhun score 0"
       },
       {
         "agent": "ValleyRisk_Kumrat",
@@ -38,9 +32,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 3.07,
-          "mean_temperature_c": -666.35,
-          "summary": "Recent maximum observed temperature: 3.07 C"
+          "max_temperature_c": 4.9,
+          "mean_temperature_c": -499.69,
+          "summary": "Recent maximum observed temperature: 4.9 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -95,9 +89,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 3.07,
-          "mean_temperature_c": -749.51,
-          "summary": "Recent maximum observed temperature: 3.07 C"
+          "max_temperature_c": 4.9,
+          "mean_temperature_c": -499.69,
+          "summary": "Recent maximum observed temperature: 4.9 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -152,9 +146,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 3.43,
-          "mean_temperature_c": -666.35,
-          "summary": "Recent maximum observed temperature: 3.43 C"
+          "max_temperature_c": 5.21,
+          "mean_temperature_c": -499.62,
+          "summary": "Recent maximum observed temperature: 5.21 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -209,9 +203,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 8.15,
-          "mean_temperature_c": -748.6,
-          "summary": "Recent maximum observed temperature: 8.15 C"
+          "max_temperature_c": 9.66,
+          "mean_temperature_c": -497.94,
+          "summary": "Recent maximum observed temperature: 9.66 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -281,9 +275,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 10.15,
-          "mean_temperature_c": -664.64,
-          "summary": "Recent maximum observed temperature: 10.15 C"
+          "max_temperature_c": 10.98,
+          "mean_temperature_c": -497.25,
+          "summary": "Recent maximum observed temperature: 10.98 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -338,9 +332,9 @@
         {
           "agent": "ObservedHeatAgent",
           "risk": "NORMAL",
-          "max_temperature_c": 11.82,
-          "mean_temperature_c": -747.98,
-          "summary": "Recent maximum observed temperature: 11.82 C"
+          "max_temperature_c": 12.96,
+          "mean_temperature_c": -496.81,
+          "summary": "Recent maximum observed temperature: 12.96 C"
         },
         {
           "agent": "ObservedRainfallAgent",
@@ -391,11 +385,56 @@
       "name": "Brep_Yarkhun",
       "lat": 36.37,
       "lon": 72.35,
-      "error": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=40)",
-      "agents": [],
+      "agents": [
+        {
+          "agent": "ObservedHeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": 9.26,
+          "mean_temperature_c": -498.35,
+          "summary": "Recent maximum observed temperature: 9.26 C"
+        },
+        {
+          "agent": "ObservedRainfallAgent",
+          "risk": "NORMAL",
+          "observed_rainfall_24h_mm": -23976.0,
+          "summary": "Observed/near-real rainfall in last 24 hours: -23976.0 mm"
+        },
+        {
+          "agent": "ForecastHeatAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": 19.8,
+          "summary": "Forecast maximum temperature in next 48h: 19.8 C"
+        },
+        {
+          "agent": "ForecastRainfallAgent",
+          "risk": "NORMAL",
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
+        },
+        {
+          "agent": "SnowMeltForecastAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": 19.8,
+          "forecast_snow_depth_max_m": 0.0,
+          "forecast_snowfall_total_cm": 0.0,
+          "summary": "Melt proxy: max temp 19.8 C, snow depth 0.0 m, snowfall 0.0 cm"
+        },
+        {
+          "agent": "FloodRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
+        },
+        {
+          "agent": "LandslideRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Landslide trigger proxy from recent and forecast rainfall"
+        }
+      ],
       "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
+        "risk_level": "NORMAL",
+        "score": 0.0,
         "reasons": []
       }
     },
