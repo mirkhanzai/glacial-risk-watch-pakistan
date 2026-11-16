@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15T22:42:25.486548+00:00",
+  "timestamp": "2026-11-16T02:39:58.655542+00:00",
   "system": "Northern Pakistan Glacial Flood and Landslide Watch",
   "data_sources": [
     "NASA POWER Hourly API",
@@ -8,67 +8,63 @@
   "combined_risk": {
     "risk_level": "NORMAL",
     "score": 0.0,
-    "reasons": [
-      {
-        "agent": "ValleyRisk_Hunza_Gojal",
-        "risk": "UNKNOWN",
-        "weighted_score": 0.0,
-        "summary": "Hunza_Gojal score 0"
-      },
-      {
-        "agent": "ValleyRisk_Gulmit_Gulkin",
-        "risk": "UNKNOWN",
-        "weighted_score": 0.0,
-        "summary": "Gulmit_Gulkin score 0"
-      },
-      {
-        "agent": "ValleyRisk_Ishkoman",
-        "risk": "UNKNOWN",
-        "weighted_score": 0.0,
-        "summary": "Ishkoman score 0"
-      },
-      {
-        "agent": "ValleyRisk_Yasin",
-        "risk": "UNKNOWN",
-        "weighted_score": 0.0,
-        "summary": "Yasin score 0"
-      },
-      {
-        "agent": "ValleyRisk_Shigar",
-        "risk": "UNKNOWN",
-        "weighted_score": 0.0,
-        "summary": "Shigar score 0"
-      },
-      {
-        "agent": "ValleyRisk_Reshun_Chitral",
-        "risk": "UNKNOWN",
-        "weighted_score": 0.0,
-        "summary": "Reshun_Chitral score 0"
-      },
-      {
-        "agent": "ValleyRisk_Brep_Yarkhun",
-        "risk": "UNKNOWN",
-        "weighted_score": 0.0,
-        "summary": "Brep_Yarkhun score 0"
-      },
-      {
-        "agent": "ValleyRisk_Kumrat",
-        "risk": "UNKNOWN",
-        "weighted_score": 0.0,
-        "summary": "Kumrat score 0"
-      }
-    ]
+    "reasons": []
   },
   "valleys": [
     {
       "name": "Hunza_Gojal",
       "lat": 36.45,
       "lon": 74.85,
-      "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=36.45&longitude=74.85&hourly=temperature_2m,relative_humidity_2m,precipitation,snowfall,snow_depth,wind_speed_10m&forecast_days=3&timezone=UTC",
-      "agents": [],
+      "agents": [
+        {
+          "agent": "ObservedHeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": -6.74,
+          "mean_temperature_c": -504.67,
+          "summary": "Recent maximum observed temperature: -6.74 C"
+        },
+        {
+          "agent": "ObservedRainfallAgent",
+          "risk": "NORMAL",
+          "observed_rainfall_24h_mm": -23976.0,
+          "summary": "Observed/near-real rainfall in last 24 hours: -23976.0 mm"
+        },
+        {
+          "agent": "ForecastHeatAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -7.5,
+          "summary": "Forecast maximum temperature in next 48h: -7.5 C"
+        },
+        {
+          "agent": "ForecastRainfallAgent",
+          "risk": "NORMAL",
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
+        },
+        {
+          "agent": "SnowMeltForecastAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -7.5,
+          "forecast_snow_depth_max_m": 0.71,
+          "forecast_snowfall_total_cm": 0.0,
+          "summary": "Melt proxy: max temp -7.5 C, snow depth 0.71 m, snowfall 0.0 cm"
+        },
+        {
+          "agent": "FloodRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
+        },
+        {
+          "agent": "LandslideRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Landslide trigger proxy from recent and forecast rainfall"
+        }
+      ],
       "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
+        "risk_level": "NORMAL",
+        "score": 0.0,
         "reasons": []
       }
     },
@@ -76,11 +72,56 @@
       "name": "Gulmit_Gulkin",
       "lat": 36.38,
       "lon": 74.86,
-      "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=36.38&longitude=74.86&hourly=temperature_2m,relative_humidity_2m,precipitation,snowfall,snow_depth,wind_speed_10m&forecast_days=3&timezone=UTC",
-      "agents": [],
+      "agents": [
+        {
+          "agent": "ObservedHeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": -6.74,
+          "mean_temperature_c": -504.67,
+          "summary": "Recent maximum observed temperature: -6.74 C"
+        },
+        {
+          "agent": "ObservedRainfallAgent",
+          "risk": "NORMAL",
+          "observed_rainfall_24h_mm": -23976.0,
+          "summary": "Observed/near-real rainfall in last 24 hours: -23976.0 mm"
+        },
+        {
+          "agent": "ForecastHeatAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -0.0,
+          "summary": "Forecast maximum temperature in next 48h: -0.0 C"
+        },
+        {
+          "agent": "ForecastRainfallAgent",
+          "risk": "NORMAL",
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
+        },
+        {
+          "agent": "SnowMeltForecastAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -0.0,
+          "forecast_snow_depth_max_m": 0.54,
+          "forecast_snowfall_total_cm": 0.0,
+          "summary": "Melt proxy: max temp -0.0 C, snow depth 0.54 m, snowfall 0.0 cm"
+        },
+        {
+          "agent": "FloodRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
+        },
+        {
+          "agent": "LandslideRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Landslide trigger proxy from recent and forecast rainfall"
+        }
+      ],
       "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
+        "risk_level": "NORMAL",
+        "score": 0.0,
         "reasons": []
       }
     },
@@ -88,11 +129,56 @@
       "name": "Ishkoman",
       "lat": 36.75,
       "lon": 73.85,
-      "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=36.75&longitude=73.85&hourly=temperature_2m,relative_humidity_2m,precipitation,snowfall,snow_depth,wind_speed_10m&forecast_days=3&timezone=UTC",
-      "agents": [],
+      "agents": [
+        {
+          "agent": "ObservedHeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": -6.08,
+          "mean_temperature_c": -506.02,
+          "summary": "Recent maximum observed temperature: -6.08 C"
+        },
+        {
+          "agent": "ObservedRainfallAgent",
+          "risk": "NORMAL",
+          "observed_rainfall_24h_mm": -23976.0,
+          "summary": "Observed/near-real rainfall in last 24 hours: -23976.0 mm"
+        },
+        {
+          "agent": "ForecastHeatAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -19.8,
+          "summary": "Forecast maximum temperature in next 48h: -19.8 C"
+        },
+        {
+          "agent": "ForecastRainfallAgent",
+          "risk": "NORMAL",
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
+        },
+        {
+          "agent": "SnowMeltForecastAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -19.8,
+          "forecast_snow_depth_max_m": 2.76,
+          "forecast_snowfall_total_cm": 0.0,
+          "summary": "Melt proxy: max temp -19.8 C, snow depth 2.76 m, snowfall 0.0 cm"
+        },
+        {
+          "agent": "FloodRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
+        },
+        {
+          "agent": "LandslideRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Landslide trigger proxy from recent and forecast rainfall"
+        }
+      ],
       "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
+        "risk_level": "NORMAL",
+        "score": 0.0,
         "reasons": []
       }
     },
@@ -100,11 +186,56 @@
       "name": "Yasin",
       "lat": 36.45,
       "lon": 73.32,
-      "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=36.45&longitude=73.32&hourly=temperature_2m,relative_humidity_2m,precipitation,snowfall,snow_depth,wind_speed_10m&forecast_days=3&timezone=UTC",
-      "agents": [],
+      "agents": [
+        {
+          "agent": "ObservedHeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": -4.35,
+          "mean_temperature_c": -504.83,
+          "summary": "Recent maximum observed temperature: -4.35 C"
+        },
+        {
+          "agent": "ObservedRainfallAgent",
+          "risk": "NORMAL",
+          "observed_rainfall_24h_mm": -23976.0,
+          "summary": "Observed/near-real rainfall in last 24 hours: -23976.0 mm"
+        },
+        {
+          "agent": "ForecastHeatAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -4.0,
+          "summary": "Forecast maximum temperature in next 48h: -4.0 C"
+        },
+        {
+          "agent": "ForecastRainfallAgent",
+          "risk": "NORMAL",
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
+        },
+        {
+          "agent": "SnowMeltForecastAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -4.0,
+          "forecast_snow_depth_max_m": 0.54,
+          "forecast_snowfall_total_cm": 0.0,
+          "summary": "Melt proxy: max temp -4.0 C, snow depth 0.54 m, snowfall 0.0 cm"
+        },
+        {
+          "agent": "FloodRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
+        },
+        {
+          "agent": "LandslideRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Landslide trigger proxy from recent and forecast rainfall"
+        }
+      ],
       "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
+        "risk_level": "NORMAL",
+        "score": 0.0,
         "reasons": []
       }
     },
@@ -112,11 +243,56 @@
       "name": "Shigar",
       "lat": 35.43,
       "lon": 75.73,
-      "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=35.43&longitude=75.73&hourly=temperature_2m,relative_humidity_2m,precipitation,snowfall,snow_depth,wind_speed_10m&forecast_days=3&timezone=UTC",
-      "agents": [],
+      "agents": [
+        {
+          "agent": "ObservedHeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": -3.47,
+          "mean_temperature_c": -503.54,
+          "summary": "Recent maximum observed temperature: -3.47 C"
+        },
+        {
+          "agent": "ObservedRainfallAgent",
+          "risk": "NORMAL",
+          "observed_rainfall_24h_mm": -23976.0,
+          "summary": "Observed/near-real rainfall in last 24 hours: -23976.0 mm"
+        },
+        {
+          "agent": "ForecastHeatAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": 1.7,
+          "summary": "Forecast maximum temperature in next 48h: 1.7 C"
+        },
+        {
+          "agent": "ForecastRainfallAgent",
+          "risk": "NORMAL",
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
+        },
+        {
+          "agent": "SnowMeltForecastAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": 1.7,
+          "forecast_snow_depth_max_m": 0.01,
+          "forecast_snowfall_total_cm": 0.0,
+          "summary": "Melt proxy: max temp 1.7 C, snow depth 0.01 m, snowfall 0.0 cm"
+        },
+        {
+          "agent": "FloodRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
+        },
+        {
+          "agent": "LandslideRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Landslide trigger proxy from recent and forecast rainfall"
+        }
+      ],
       "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
+        "risk_level": "NORMAL",
+        "score": 0.0,
         "reasons": []
       }
     },
@@ -124,11 +300,56 @@
       "name": "Reshun_Chitral",
       "lat": 36.15,
       "lon": 72.15,
-      "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=36.15&longitude=72.15&hourly=temperature_2m,relative_humidity_2m,precipitation,snowfall,snow_depth,wind_speed_10m&forecast_days=3&timezone=UTC",
-      "agents": [],
+      "agents": [
+        {
+          "agent": "ObservedHeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": -3.21,
+          "mean_temperature_c": -504.55,
+          "summary": "Recent maximum observed temperature: -3.21 C"
+        },
+        {
+          "agent": "ObservedRainfallAgent",
+          "risk": "NORMAL",
+          "observed_rainfall_24h_mm": -23976.0,
+          "summary": "Observed/near-real rainfall in last 24 hours: -23976.0 mm"
+        },
+        {
+          "agent": "ForecastHeatAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -0.1,
+          "summary": "Forecast maximum temperature in next 48h: -0.1 C"
+        },
+        {
+          "agent": "ForecastRainfallAgent",
+          "risk": "NORMAL",
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
+        },
+        {
+          "agent": "SnowMeltForecastAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -0.1,
+          "forecast_snow_depth_max_m": 0.02,
+          "forecast_snowfall_total_cm": 0.0,
+          "summary": "Melt proxy: max temp -0.1 C, snow depth 0.02 m, snowfall 0.0 cm"
+        },
+        {
+          "agent": "FloodRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
+        },
+        {
+          "agent": "LandslideRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Landslide trigger proxy from recent and forecast rainfall"
+        }
+      ],
       "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
+        "risk_level": "NORMAL",
+        "score": 0.0,
         "reasons": []
       }
     },
@@ -136,11 +357,56 @@
       "name": "Brep_Yarkhun",
       "lat": 36.37,
       "lon": 72.35,
-      "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=36.37&longitude=72.35&hourly=temperature_2m,relative_humidity_2m,precipitation,snowfall,snow_depth,wind_speed_10m&forecast_days=3&timezone=UTC",
-      "agents": [],
+      "agents": [
+        {
+          "agent": "ObservedHeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": -4.86,
+          "mean_temperature_c": -505.44,
+          "summary": "Recent maximum observed temperature: -4.86 C"
+        },
+        {
+          "agent": "ObservedRainfallAgent",
+          "risk": "NORMAL",
+          "observed_rainfall_24h_mm": -23976.0,
+          "summary": "Observed/near-real rainfall in last 24 hours: -23976.0 mm"
+        },
+        {
+          "agent": "ForecastHeatAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -0.8,
+          "summary": "Forecast maximum temperature in next 48h: -0.8 C"
+        },
+        {
+          "agent": "ForecastRainfallAgent",
+          "risk": "NORMAL",
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
+        },
+        {
+          "agent": "SnowMeltForecastAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": -0.8,
+          "forecast_snow_depth_max_m": 0.07,
+          "forecast_snowfall_total_cm": 0.0,
+          "summary": "Melt proxy: max temp -0.8 C, snow depth 0.07 m, snowfall 0.0 cm"
+        },
+        {
+          "agent": "FloodRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
+        },
+        {
+          "agent": "LandslideRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Landslide trigger proxy from recent and forecast rainfall"
+        }
+      ],
       "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
+        "risk_level": "NORMAL",
+        "score": 0.0,
         "reasons": []
       }
     },
@@ -148,11 +414,56 @@
       "name": "Kumrat",
       "lat": 35.55,
       "lon": 72.23,
-      "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=35.55&longitude=72.23&hourly=temperature_2m,relative_humidity_2m,precipitation,snowfall,snow_depth,wind_speed_10m&forecast_days=3&timezone=UTC",
-      "agents": [],
+      "agents": [
+        {
+          "agent": "ObservedHeatAgent",
+          "risk": "NORMAL",
+          "max_temperature_c": -1.31,
+          "mean_temperature_c": -501.57,
+          "summary": "Recent maximum observed temperature: -1.31 C"
+        },
+        {
+          "agent": "ObservedRainfallAgent",
+          "risk": "NORMAL",
+          "observed_rainfall_24h_mm": -23976.0,
+          "summary": "Observed/near-real rainfall in last 24 hours: -23976.0 mm"
+        },
+        {
+          "agent": "ForecastHeatAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": 4.8,
+          "summary": "Forecast maximum temperature in next 48h: 4.8 C"
+        },
+        {
+          "agent": "ForecastRainfallAgent",
+          "risk": "NORMAL",
+          "forecast_rainfall_48h_mm": 0.0,
+          "summary": "Forecast precipitation in next 48h: 0.0 mm"
+        },
+        {
+          "agent": "SnowMeltForecastAgent",
+          "risk": "NORMAL",
+          "forecast_max_temperature_48h_c": 4.8,
+          "forecast_snow_depth_max_m": 0.15,
+          "forecast_snowfall_total_cm": 0.0,
+          "summary": "Melt proxy: max temp 4.8 C, snow depth 0.15 m, snowfall 0.0 cm"
+        },
+        {
+          "agent": "FloodRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Flood risk from observed rainfall + forecast rainfall + snow/glacier melt proxy"
+        },
+        {
+          "agent": "LandslideRiskAgent",
+          "risk": "NORMAL",
+          "combined_trigger_points": 0,
+          "summary": "Landslide trigger proxy from recent and forecast rainfall"
+        }
+      ],
       "combined_risk": {
-        "risk_level": "UNKNOWN",
-        "score": 0,
+        "risk_level": "NORMAL",
+        "score": 0.0,
         "reasons": []
       }
     }
